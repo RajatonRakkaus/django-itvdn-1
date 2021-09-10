@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson 3</title>
+</head>
+<body>
+    <p><a href="{% url 'text' %}">Text</a></p>
+    <p><a href="{% url 'file' %}">File</a></p>
+    <p><a href="{% url 'redirect' %}">Redirect</a></p>
+    <p><a href="{% url 'not-allowed' %}">Not allowed</a></p>
+    <p><a href="{% url 'json' %}">Json</a></p>
+    <p>{% csrf_token %} <button type="button">GET</button></p>
+    <p>{% csrf_token %} <button type="button">POST</button></p>
+    <p>{% csrf_token %} <button type="button">DELETE</button></p>
+</body>
+</html>
