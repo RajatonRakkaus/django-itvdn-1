@@ -1,0 +1,2 @@
+cd django_itvdn
+cd django-itvdn-1
